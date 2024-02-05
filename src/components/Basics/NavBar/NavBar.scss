@@ -1,0 +1,120 @@
+.NavHero{
+    background-image: url(https://w0.peakpx.com/wallpaper/355/184/HD-wallpaper-avatar-the-way-of-the-water-2022-avatar-2-avatar-the-way-of-water-2022-movies-movies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Navbar {
+    display: flex;
+    max-width: 100wv;
+    justify-content: space-between;
+    color: white;
+}
+
+.FirstHalf {}
+
+.logo {
+    margin-left: 1.5rem;
+
+    & img {
+        width: 5.5rem;
+    }
+}
+
+.SecondHalf {
+    margin-right: 1rem;
+
+    & ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-size: 1.05rem;
+
+        & li {
+            margin: 0 1.5rem 0 1.5rem;
+            transition: all ease-in-out .15s;
+            cursor: pointer;
+
+
+            &:hover {
+                color: #FB1351;
+            }
+        }
+    }
+}
+
+// for heroSection 
+.heroSection{
+    margin: 0rem 2rem;
+    height: 100vh;
+    width: 100wv;
+    display: flex;
+}
+.slider{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    place-items: center;
+    margin: 0rem 2rem 2rem 2rem;
+    justify-content: center;
+     transition: transform 0.5s ease-in-out;
+}
+.left-slider , .right-slider{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    color: white;
+    cursor: pointer; 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    // margin: 5rem 0 0 10rem ;
+}
+.movie-title{
+    font-weight: bolder;
+    color: white;
+    font-size: 6rem;
+}
+.movie-stats{
+    font-size: 1.5rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width:max-content;
+    color: white;
+
+    & .pg{
+        margin-left: 0;
+    }
+    & li{
+        margin: 0 1rem 0 1rem;
+    }
+    & .imbd{
+        display: flex;
+    }
+}
+.dic-movie{
+    margin: 2rem 2rem 2rem ;
+    text-wrap:balance;
+    color: white;
+    
+
+}
+.movie-btn{
+    margin: 2rem 2rem 2rem ;
+    border: 2px solid #FB1351;
+    max-width: fit-content;
+    color: white;
+    background-color: #FB1351;
+    padding: 5px;
+}
+
+// Movie-Tailer
+.movie-tailer{
+    & img{
+    width: 40rem;
+    }
+}

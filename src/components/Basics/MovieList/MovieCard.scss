@@ -1,0 +1,44 @@
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 12rem;
+    /* Adjust the value based on your design */
+    margin: auto;
+    padding: 10px;
+}
+
+.movie-img img {
+    width: 100%;
+    transition: all ease-in-out .15s;
+
+    &:hover {
+        box-shadow: 1px 1px 15rem white;
+        transform: translateY(-20px) scale(1.1);
+    }
+}
+
+.movie-discription {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-name {
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-duration {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.movie-category {
+    color: #FB1351;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.movie-list {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.movie-list-heading {
+    padding: 5rem 5rem 2rem 5rem ;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+
+}
+
+.movie-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.movie-card {
+    margin: 2rem 4rem 2rem 4rem;
+}
