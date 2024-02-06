@@ -13,7 +13,7 @@ const NavBar = ({ heroMovie }) => {
     };
 
     return (
-        <div className="NavHero" style={{backgroundImage: `url('${heroMovie[curSlide].image}')`}}>
+        <div className="NavHero" style={{backgroundImage: `url('${heroMovie[curSlide].bgimage}')`}}>
             <div className="Navbar">
                 <div className="FirstHalf">
                     <div className="logo">
@@ -54,7 +54,7 @@ const NavBar = ({ heroMovie }) => {
                         <div className="movie-btn">Watch Now</div>
                     </div>
                     <div className="movie-tailer" style={{ backgroundImage: `url('${heroMovie[curSlide].image}')` }}>
-                        <img src={heroMovie[curSlide].image} alt="movie-trailer" />
+                        <img src={heroMovie[curSlide].image} alt="movie-trailer" className='movie-img' />
                     </div>
                 </section>
                 <div className="right-slider" onClick={nextSlide}>

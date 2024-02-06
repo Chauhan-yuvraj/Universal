@@ -1,7 +1,8 @@
 .NavHero{
     background-image: url(https://w0.peakpx.com/wallpaper/355/184/HD-wallpaper-avatar-the-way-of-the-water-2022-avatar-2-avatar-the-way-of-water-2022-movies-movies.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    
 }
 
 .Navbar {
@@ -115,6 +116,6 @@
 // Movie-Tailer
 .movie-tailer{
     & img{
-    width: 40rem;
+    width: 100%;
     }
 }
