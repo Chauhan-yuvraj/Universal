@@ -1,40 +1,97 @@
-.main-card{
-
+.omain-card{
+    background-image: url('../../../../public/movie-img/Rectanglebg.svg');
+    background-color: rgba(0, 0, 0, 0.952);
 }
 .ucmovie{
-
+    display: flex;
+    margin: 0 10rem;
+    padding-top: 10rem;
 }
-.mainMovie{
-    
+.omainMovie {
+    display: flex;
+    align-items: end;
+    position: relative;
+    width: 50rem;
+    height: 30rem;
+    background-image: url('../../../../public/movie-img/kungfupanda4.svg');
+    margin-bottom: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.movie-details{
-
+.omovie-details{
+    margin:0 0 2rem 3rem;
+    z-index: 2;
+    color: white;
 }
-.movie-title{
-
+.omovie-title{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    width: fit-content; 
+    transition: all ease-in-out 0.15s;
+    &:hover{
+        color: #FB1351;
+        background-color: rgba(255, 255, 255, 0.205);
+        width: fit-content;
+    }
 }
-.movie-desc{
-
+.omovie-desc{
+    opacity: .5;
+    word-wrap:normal;
+    max-width: 35rem;
+    transition: all ease-in-out 0.15s;
+    cursor: pointer;
+    & span{
+        color: #FB1351;
+        &:hover{
+            scale: 2;
+        }
+    }
+    &:hover{
+        opacity: 1;
+    }
 }
 .otherMovie{
 
 }
 // OtherMovieCard
-.otherMoviesCard{
+.otherMovie{
+    margin-left: 2rem ;
+    display: flex;
+    flex-direction: column;
+}
+.otherMovieDec{
+    background:url('../../../../public/movie-img/civilwar.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18rem;
+    height: 9rem;
+    margin-bottom: 1.5rem;
+    transition: all ease-in-out .15s;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
 
 }
 .otherMovieDec{
-
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    color: white;
 }
-.otherMovieName{
-
+.otherMovieContent{
+    margin-left: 0.8rem;
+  
 }
-.otherMovieStats{
-
+.othermovieTitle{
 }
-.otherMovieDuration{
-
+.othermovieStats{
+    display: flex;
 }
-.otherMovieCategory{
-
+.othermovieDuration{
+    margin-right: 0.5rem;
+}
+.othermovieCategory{
+    color: #FB1351;
 }

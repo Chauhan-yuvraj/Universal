@@ -3,8 +3,8 @@
     flex-direction: column;
     max-width: 12rem;
     /* Adjust the value based on your design */
-    margin: auto;
     padding: 10px;
+    width: 100vw;
 }
 
 .movie-img img {
@@ -12,7 +12,7 @@
     transition: all ease-in-out .15s;
 
     &:hover {
-        box-shadow: 1px 1px 15rem white;
+        box-shadow: 1px 1px 15rem #FB1351;
         transform: translateY(-20px) scale(1.1);
     }
 }

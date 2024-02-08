@@ -6,8 +6,8 @@ const NavBarContent = [
         duration: "3hr 10min",
         imbd: "8.5",
         date: "2020",
-        discription: "The Way of Water is a 2022 American epic science fiction film co-produced and directed by James Cameron, who co-wrote the screenplay with Rick Jaffa",
-        image: "./movie-img/avatar2.jpg",
+        discription: "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully, a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman. As a bond with her grows, he is drawn into a battle for the survival of her world.",
+        image: "./movie-img/avatar-logo.png",
         bgimage:"./movie-img/avatarbg.jpg"
     },
     {
@@ -30,7 +30,7 @@ const NavBarContent = [
         imbd: "6",
         date: "2023",
         discription: "Transformers: Rise of the Beasts is a 2023 American science fiction action film based on Hasbro's Transformers toy line, and primarily influenced by its Beast Wars sub-franchise.",
-        image: "./movie-img/transformer.jpg",
+        image: "./movie-img/transformer.png",
         bgimage:"./movie-img/transformerbg.jpg"
 
 

@@ -45,7 +45,9 @@ const NavBar = ({ heroMovie }) => {
                             <li className="pg">{heroMovie[curSlide].pg}</li>
                             <li className="duration">{heroMovie[curSlide].duration}</li>
                             <li className="imbd">
-                                <div className="imbd-logo"></div>
+                                <div className="imbd-logo">
+                                    <img src="public/movie-img/imbdlogo.jpg" alt="imbd" />
+                                </div>
                                 <div className="imbd-score">{heroMovie[curSlide].imbd}</div>
                             </li>
                             <li className="year">{heroMovie[curSlide].date}</li>
@@ -53,7 +55,7 @@ const NavBar = ({ heroMovie }) => {
                         <div className="dic-movie">{heroMovie[curSlide].discription}</div>
                         <div className="movie-btn">Watch Now</div>
                     </div>
-                    <div className="movie-tailer" style={{ backgroundImage: `url('${heroMovie[curSlide].image}')` }}>
+                    <div className="movie-tailer">
                         <img src={heroMovie[curSlide].image} alt="movie-trailer" className='movie-img' />
                     </div>
                 </section>
