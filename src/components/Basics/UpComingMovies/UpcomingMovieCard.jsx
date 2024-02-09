@@ -7,12 +7,12 @@ const UpcomingMovieCard = ({ UpcomingMovieData }) => {
                 return (
                     <>
                         <div className="oMovieCard" key={CurEle.id}>
-                            <div className="otherMovieDec">
+                            <div className="otherMovieDec" style={{backgroundImage : `url('${CurEle.image}')`}}>
                                 <div className="otherMovieContent">
-                                    <div className="othermovieTitle">The Lord Of the Rings</div>
+                                    <div className="othermovieTitle">{CurEle.movieTitle}</div>
                                     <div className="othermovieStats">
-                                        <div className="othermovieDuration">2hr 10min</div>
-                                        <div className="othermovieCategory">Action</div>
+                                        <div className="othermovieDuration">{CurEle.movieDur}</div>
+                                        <div className="othermovieCategory">{CurEle.movieCat}</div>
                                     </div>
                                 </div>
                             </div>

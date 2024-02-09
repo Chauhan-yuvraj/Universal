@@ -50,9 +50,7 @@
         opacity: 1;
     }
 }
-.otherMovie{
-
-}
+.otherMovie{}
 // OtherMovieCard
 .otherMovie{
     margin-left: 2rem ;
@@ -61,8 +59,8 @@
 }
 .otherMovieDec{
     background:url('../../../../public/movie-img/civilwar.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
     width: 18rem;
     height: 9rem;
     margin-bottom: 1.5rem;
@@ -71,8 +69,8 @@
     &:hover{
         opacity: 1;
     }
-
 }
+
 .otherMovieDec{
     display: flex;
     flex-direction: column;
@@ -84,8 +82,8 @@
     margin-left: 0.8rem;
   
 }
-.othermovieTitle{
-}
+.othermovieTitle{}
+
 .othermovieStats{
     display: flex;
 }
